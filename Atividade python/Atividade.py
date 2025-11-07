@@ -39,8 +39,6 @@ conta_palavras()
 print()
 
 #Função Lambda
-#quadrado = lambda a, b: a ** b
-#print(quadrado(3,4))
 numeros =[2,4,6,8,10]
 divisao =list(map(lambda a : a ** 2, numeros))
 print(divisao)
